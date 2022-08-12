@@ -21,7 +21,7 @@ void FillArrayDouble(double[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = new Random().Next(1,10) + Math.Round((rand.NextDouble()/100), 2);;
+            matrix[i, j] = new Random().Next(1,10) + Math.Round((rand.NextDouble()/100), 1);;
         }
     }
 }
@@ -125,6 +125,6 @@ void Zadacha52()
     }
 }
 
-//Zadacha47();
+Zadacha47();
 //Zadacha50();
 //Zadacha52();
