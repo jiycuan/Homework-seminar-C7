@@ -125,6 +125,6 @@ void Zadacha52()
     }
 }
 
-Zadacha47();
+//Zadacha47();
 //Zadacha50();
 //Zadacha52();
